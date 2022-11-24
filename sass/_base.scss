@@ -1,0 +1,29 @@
+*, 
+*::before,
+::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+
+body {
+    font-size: 10px;
+    font-family: 'DM+Sans';
+    font-weight: 400;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}

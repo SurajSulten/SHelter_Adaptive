@@ -1,0 +1,154 @@
+.header-wrapper-pets {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pets_logo_text {
+    color: #292929;
+}
+
+.navigation_item {
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;  
+    color: #545454;
+    margin-left: 35px;
+}
+@media(max-width: 414px) {
+    .navigation_item {
+        font-size: 35px;
+        margin-left: 0;
+        color: #CDCDCD;
+    }
+}
+
+
+.navigation_item:hover {
+    color: #292929;
+} 
+
+.burger_pets_page {
+    background-color: #000;
+}
+.burger:after, .burger:before {
+    background-color: #000;
+}
+.burger__active {
+    background-color: white;
+}
+.pets_burger_line:after, .pets_burger_line:before {
+    background-color: #fff;
+}
+.active {
+    border-bottom: 3px solid #F1CDB3;
+    color: #545454;
+}
+@media(max-width: 414px) {
+    .active {
+        color: #fff;
+    } 
+}
+.main {
+    background-color: #F6F6F6;
+}
+.pets_content_wrapper {
+    padding: 80px 0 100px 0;
+    align-items: center;
+    text-align: center;
+}
+@media(max-width: 414px) {
+    .pets_content_wrapper {
+        padding: 42px 0 42px 0;
+    }
+}
+
+.pets_page_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-bottom: 30px;
+}
+
+@media(max-width: 414px) {
+    .pets_page_content {
+        justify-content: center;
+    }
+}
+@media(max-width: 768px) {
+    .pets_page_content .pets_card:nth-child(7) {
+        display: none;
+    }
+}
+@media(max-width: 768px) {
+    .pets_page_content .pets_card:nth-child(8) {
+        display: none;
+    }
+}
+@media(max-width: 414px) {
+    .pets_page_content .pets_card:nth-child(6) {
+        display: none;
+    }
+}
+@media(max-width: 414px) {
+    .pets_page_content .pets_card:nth-child(5) {
+        display: none;
+    }
+}
+@media(max-width: 414px) {
+    .pets_page_content .pets_card:nth-child(4) {
+        display: none;
+    }
+}
+
+@media(max-width: 768px) {
+    .pets_page_content {
+        padding: 0 64px 10px;
+    }
+}
+@media(max-width: 414px) {
+    .pets_page_content {
+        padding: 0 0px 0px;
+    }
+}
+
+.pets_page_buttons {
+    display: flex;
+    max-width: 340px;
+    margin: auto;
+    justify-content: space-between;
+}
+@media(max-width: 414px) {
+    .pets_page_buttons {
+        max-width: 300px;   
+    }
+}
+
+.btn_style {
+    display: flex;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #CDCDCD;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn_active {
+    background-color: #F1CDB3;
+    border: none;
+}
+
+.btn_normal {
+    border: 2px solid #F1CDB3;
+}
+.btn_normal:hover {
+    background-color: #F1CDB3;
+}
+
